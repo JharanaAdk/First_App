@@ -1,0 +1,16 @@
+{% extends 'inc/nav.html' %}
+
+{% block content %}
+
+<div class="container">
+    {% for items in demomodels %}
+    <h1> {{ items.name }} </h1>
+    
+    {% endfor %}
+  
+
+
+</div>
+
+
+{% endblock content %}
